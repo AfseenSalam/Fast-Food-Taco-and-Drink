@@ -1,0 +1,198 @@
+[
+  {
+    "ContainingType": "TacoFastFoodAPI.Controllers.CombosController",
+    "Method": "GetAll",
+    "RelativePath": "api/Combos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TacoFastFoodAPI.Controllers.CombosController",
+    "Method": "AddCombo",
+    "RelativePath": "api/Combos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newCombo",
+        "Type": "TacoFastFoodAPI.Models.Combo",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TacoFastFoodAPI.Controllers.CombosController",
+    "Method": "GetById",
+    "RelativePath": "api/Combos/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TacoFastFoodAPI.Controllers.CombosController",
+    "Method": "DeleteTaco",
+    "RelativePath": "api/Combos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TacoFastFoodAPI.Controllers.DrinkController",
+    "Method": "GetAll",
+    "RelativePath": "api/Drink",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sortByCost",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TacoFastFoodAPI.Controllers.DrinkController",
+    "Method": "AddDrink",
+    "RelativePath": "api/Drink",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newDrink",
+        "Type": "TacoFastFoodAPI.Models.Drink",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TacoFastFoodAPI.Controllers.DrinkController",
+    "Method": "UpdateDrinks",
+    "RelativePath": "api/Drink",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "newDrink",
+        "Type": "TacoFastFoodAPI.Models.Drink",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TacoFastFoodAPI.Controllers.DrinkController",
+    "Method": "GetById",
+    "RelativePath": "api/Drink/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TacoFastFoodAPI.Controllers.TacoController",
+    "Method": "GetAll",
+    "RelativePath": "api/Taco",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "apiKey",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "softShell",
+        "Type": "System.Nullable\u00601[[System.Boolean, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TacoFastFoodAPI.Controllers.TacoController",
+    "Method": "AddTaco",
+    "RelativePath": "api/Taco",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "newTaco",
+        "Type": "TacoFastFoodAPI.Models.Taco",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TacoFastFoodAPI.Controllers.TacoController",
+    "Method": "GetById",
+    "RelativePath": "api/Taco/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "TacoFastFoodAPI.Controllers.TacoController",
+    "Method": "DeleteTaco",
+    "RelativePath": "api/Taco/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
